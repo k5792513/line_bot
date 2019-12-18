@@ -42,10 +42,10 @@ def handle_message(event):
 
     if msg in ['hi', 'Hi']:
         r = '嗨'
-    elif msg = '你吃飽了嗎':
+    elif msg == '你吃飽了嗎':
         r = '還沒'
-    elif msg = '你是誰':
-        r = '我是機器人喔'
+    elif msg == '你是誰':
+        r == '我是機器人喔'
     elif '訂位' in msg:
         r = '您是否要訂位呢？'
 
